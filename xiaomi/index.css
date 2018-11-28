@@ -30,9 +30,13 @@ ul{
     color: #fff;
     font-size: 12px;
 }
+.topbar a:hover{
+    color:#999;
+}
 .topbar span{
     color: #fff;
     margin: 0 3px;
+    font-size:12px;
 }
 
 
