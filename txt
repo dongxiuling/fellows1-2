@@ -2,3 +2,25 @@ html
     超文本标记语言  写页面
     标签  大多数是成对出现 <html></html>
     少部分不是成对出现的 <meta/>
+
+    h1 - h6 标题
+    p 段落
+    ul li 列表
+    a 超链接
+     <a href="https://www.baidu.com/" target="_blank">百度</a>
+    img 图片
+    div 布局 划分区块
+    span 行级元素
+
+css  
+    选择器 id选择器  #a
+          标签选择器  div
+          class 类选择器 .list2
+          后代选择器 #ul2 .list2
+          伪类选择器a:hover
+
+    样式  width
+         height
+         background-color
+         background-images
+
