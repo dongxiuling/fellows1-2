@@ -1,10 +1,16 @@
 /* 去掉浏览器默认的外边距和内边距 */
+/* 公共的样式 */
 *{
     padding: 0;
     margin: 0;
 }
+ul{
+    list-style: none;
+}
+/* topbar开始 */
 .topbar{
     height:40px;
+    line-height: 40px;
     background-color:#333; 
 }
 .wrapper{
@@ -15,3 +21,15 @@
     /* auto 自适应 */
     margin:0px auto;
 }
+.topbar-list li{
+    float: left;
+}
+.topbar a{
+    /* 去掉下划线 */
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* topbar结束*/
