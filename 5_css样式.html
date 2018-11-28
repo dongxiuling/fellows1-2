@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        div{
+        #a{
             width: 1000px;
             height: 1000px;
             /* background: red; */
@@ -16,14 +16,57 @@
             background-image:url(images/bbb.jpg);
             /* 背景图片不重复 */
             background-repeat: no-repeat;
+            /* 水平居中 */
+            text-align: center;
+            
+
         }
+        #b{
+            /* 垂直居中 line-height = height */
+            height: 50px;
+            line-height:50px;
+            background: hsl(0, 0%, 80%);
+            color: red;
+            /* font-size 设置字体大小 默认值16px */
+            font-size:30px;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+
+        }
+        a{
+            color: black;
+            /* 去掉下划线 */
+            text-decoration: none;
+            /* 穿过 */
+            text-decoration: line-through;
+        }
+        ul{
+            /* 去掉列表的. */
+            list-style:none;
+        }
+        #baidu{
+            /* display 
+            block 块级元素、
+            inline 行级元素
+            */
+            display: block;
+        }
+
     </style>
 </head>
 <body>
-    <div>
+    <div id="a">
         esrtdyfgu
     </div>
+    <div id="b">
+        hahaha 呵呵呵
+    </div>
+    <a id="baidu" href="http://www.baidu.com">百度</a>
+    <a href="http://www.baidu.com">淘宝</a>
+    <ul>
+        <li>sdfghj</li>
+    </ul>
 
-
+    
 </body>
 </html>

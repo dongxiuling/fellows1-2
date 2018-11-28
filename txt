@@ -12,6 +12,9 @@ html
     div 布局 划分区块
     span 行级元素
 
+    行级：多个占一行 a span
+    块级：自己占一行 h1-h6 p ul li div 
+ 
 css  
     选择器 id选择器  #a
           标签选择器  div
@@ -23,5 +26,16 @@ css
          height
          background-color
          background-images
+         background-repeat:no-repeat
+
+
+
+
+
+
+
+
+
+
 
 

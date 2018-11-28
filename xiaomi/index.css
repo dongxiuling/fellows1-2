@@ -1,0 +1,17 @@
+/* 去掉浏览器默认的外边距和内边距 */
+*{
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    height:40px;
+    background-color:#333; 
+}
+.wrapper{
+    width: 1200px;
+    height: 40px;
+    background: pink;
+    /* 两个值的时候 第一个代表垂直方向的margin 第二个水平 */
+    /* auto 自适应 */
+    margin:0px auto;
+}

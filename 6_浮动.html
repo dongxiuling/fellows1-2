@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            /* 解决子元素浮动带来的塌陷问题 */
+            overflow: hidden;
+        }
+        li{
+            /* 左浮 脱离文档流 空间释放 */
+            float:right;
+            background: red;
+            list-style: none;
+            font-size: 50px;
+        }
+        h1{
+            height: 50px;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+    </ul>
+
+    <h1></h1>
+    
+</body>
+</html>
