@@ -16,7 +16,7 @@ ul{
 .wrapper{
     width: 1200px;
     height: 40px;
-    background: pink;
+    /* background: pink; */
     /* 两个值的时候 第一个代表垂直方向的margin 第二个水平 */
     /* auto 自适应 */
     margin:0px auto;
@@ -29,6 +29,10 @@ ul{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
+}
+.topbar span{
+    color: #fff;
+    margin: 0 3px;
 }
 
 
