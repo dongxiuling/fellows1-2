@@ -24,9 +24,31 @@ css
 
     样式  width
          height
-         background-color
-         background-images
-         background-repeat:no-repeat
+         background-color 背景颜色
+         background-image 背景图片
+         background-repeat:no-repeat  背景图片不重复
+         background-position: 背景图片定位
+
+         text-align:left center right   文本水平对齐方式
+         line-height = height  文本垂直居中
+
+         list-style:none; 去掉列表li的前边的点
+         text-decoration:none  去掉文本下划线
+         css盒模型
+         padding:20px ;   内边距  border和内容之间的空隙
+         border:1px solid red;     边框
+         margin:20px;  外边距  元素距离其他元素的距离
+         块级元素水平居中  margin: 0 auto;
+
+         浮动（一般用于将元素水平布局）: float:left左浮动  right右浮动
+
+
+
+
+
+
+
+
 
 
 
