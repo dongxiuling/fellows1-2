@@ -38,6 +38,16 @@ ul{
     margin: 0 3px;
     font-size:12px;
 }
-
+.topbar-list{
+    /* 解决子元素浮动带来的塌陷问题 */
+    overflow: hidden;
+    float: left;
+}
+.topbar-login{
+    float: right;
+}
+.topbar-login li{
+    float: left;
+}
 
 /* topbar结束*/
