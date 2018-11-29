@@ -55,16 +55,46 @@ ul{
 /* header 开始 */
 .header{
     width: 1200px;
-    background: pink;
+    /* background: pink; */
     height: 100px;
     margin:0 auto;
 }
 .header-logo{
     float: left;
+    padding-top:24px;
 }
 .header-logo img{
     width: 187px;
     height: 55px;
 }
 
+.header-list{
+    float:right;
+    padding-top: 35px;
+}
+.header-list li{
+    float: left;
+    font-size: 18px;
+    /*内边距 （边框和内容之间的间距） 上 右 下 左 */
+    padding: 0 22px 0 23px;
+}
 /* header 结束 */
+/* banner开始 */
+.banner{
+    height: 640px;
+    /* background: red; */
+
+    /* background-color:red;
+    background-image:url('images/banner.jpg'); */
+    /* 背景图片的位置 
+     第一个参数水平位置 (某个值 或 left center right) 
+      第二个参数控制垂直位置 (某个值  top center bottom) */
+    /* background-position: 100px 200px;
+
+    background-repeat: no-repeat; */
+    /* 推荐用下边的简写方式 */
+    /* background: red  url('images/banner.jpg') 100px 200px no-repeat; */
+
+    background: url('images/banner.jpg') center 0;
+}
+/* banner结束 */
