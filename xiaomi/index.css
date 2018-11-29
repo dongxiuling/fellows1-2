@@ -97,4 +97,49 @@ ul{
 
     background: url('images/banner.jpg') center 0;
 }
+.banner h2{
+    font-size: 54px;
+    color:#fff;
+    /* 字体粗细 */
+    font-weight: 300;
+    /* 文字水平居中 */
+    text-align: center;
+    padding-top:193px;
+    padding-bottom: 30px;
+}
+.btn{
+     /* 文字水平居中 */
+    text-align: center;
+}
+/* 
+line 行级元素  1多个元素占一行 2不能设置宽高 
+a span
+block 块级元素 1 自己占一行 2可以设置宽高
+div h1-h6 p ul li
+inline-block 行级块元素  1多个元素占一行 2可以设置宽高 
+img
+
+display:block inline inline-block;
+*/
+.btn a{
+    font-size: 24px;
+    color: #fff;
+    /* 去掉下划线 */
+    text-decoration: none;
+    width: 260px;
+    height: 55px;
+    /* 文本垂直居中 line-height=height */
+    line-height:55px;
+    display: inline-block;
+    background: #F93F2B;
+    /* css3 css新语法 边框圆角 */
+    border-radius: 8px;
+}
 /* banner结束 */
+
+
+
+
+
+
+
