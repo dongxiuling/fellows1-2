@@ -23,6 +23,7 @@ ul{
 }
 .topbar-list li{
     float: left;
+    height: 40px;
 }
 .topbar a{
     /* 去掉下划线 */
@@ -51,3 +52,19 @@ ul{
 }
 
 /* topbar结束*/
+/* header 开始 */
+.header{
+    width: 1200px;
+    background: pink;
+    height: 100px;
+    margin:0 auto;
+}
+.header-logo{
+    float: left;
+}
+.header-logo img{
+    width: 187px;
+    height: 55px;
+}
+
+/* header 结束 */
